@@ -17,6 +17,9 @@ var paths = {
     ],
     images: [
         '../static/img/logo.png',
+        '../static/img/nexus-mockup.png',
+        '../static/img/imac-mockup.png',
+        '../static/img/mf.png'
     ],
     ie_js: [
         '../static/lib/html5shiv/dist/html5shiv.js',
