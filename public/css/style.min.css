@@ -215,6 +215,9 @@ footer p {
 }
 
 @media (min-width: 992px) {
+    #featurettes, #legal {
+        padding-top: 42px;
+    }
 
     .try-for-free {
         margin-bottom: 50px;
