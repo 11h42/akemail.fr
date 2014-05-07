@@ -159,9 +159,18 @@ footer p {
     color: #A6A6A6;
 }
 
+#legal {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media (min-width: 768px) {
+    #legal {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
 
     .featurette-divider {
         margin: 60px 0;

@@ -8,21 +8,82 @@
     <meta name="description" content="Akemail is a cloud emailing solution: robust, agile and intuitive!">
     <meta name="author" content="Akemail">
 
-    <link rel="stylesheet" href="public/css/style.min.css"/>
+    <link rel="stylesheet" href="/public/css/style.min.css"/>
 
-    <link rel="icon" type="image/png" href="public/img/favicon.png"/>
-    <link rel="apple-touch-icon" href="public/img/favicon.png">
+    <link rel="icon" type="image/png" href="/public/img/favicon.png"/>
+    <link rel="apple-touch-icon" href="/public/img/favicon.png">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="public/js/ie.min.js"></script>
-    <link href="public/css/ie.min.css" rel="stylesheet">
-    <link type="image/x-icon" rel="shortcut icon" href="public/img/favicon.ico"/>
+    <script src="/public/js/ie.min.js"></script>
+    <link href="/public/css/ie.min.css" rel="stylesheet">
+    <link type="image/x-icon" rel="shortcut icon" href="/public/img/favicon.ico"/>
     <![endif]-->
 </head>
 <body>
 
+<div class="navbar-wrapper">
+    <div class="container">
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="navbar-header">
+                <a href="https://akemail.fr/app/" type="button"
+                   class="btn btn-primary navbar-btn pull-right visible-xs">
+                    Connexion
+                </a>
+                <a href="#menu-mobile" class="navbar-toggle">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+
+
+                <a class="navbar-brand" href="/">Akemail</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Accueil</a></li>
+                    <li><a href="/#pricing">Tarifs</a></li>
+                    <li><a target="_blank" href="http://documentation.akemail.fr">Documentation</a>
+                    </li>
+                    <li><a href="/#contact">Contact</a></li>
+                </ul>
+
+                <a href="https://app.akemail.fr/" class="btn btn-primary navbar-btn hidden-xs navbar-right">
+                    Connexion
+                </a>
+            </div>
+        </nav>
+    </div>
+</div>
+
+
 {{content}}
+
+<div id="footer-wrapper">
+    <div class="container">
+        <div class="row visible-xs">
+            <div class="col-sm-4">
+                <h2>Menu</h2>
+            </div>
+        </div>
+        <div class="row visible-xs">
+            <div class="col-lg-12">
+                <ul id="menu-mobile" class="list-unstyled">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#pricing">Tarifs</a></li>
+                    <li><a target="_blank" href="http://documentation.akemail.fr">Documentation</a>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <footer class="col-lg-12">
+                <p>© 2014 Akemail · <a href="/legal">Mentions légales</a></p>
+            </footer>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>
