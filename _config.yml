@@ -1,7 +1,7 @@
 name: akemail.fr
 description: code for akemail.fr web site
 url: https://akemail.fr/
-baseurl: "http://11h42.github.io/akemail.fr"
+baseurl: "https://11h42.github.io/akemail.fr"
 pygments: True
 encoding: utf-8
 markdown: kramdown
