@@ -1,6 +1,6 @@
 name: akemail.fr
 description: code for akemail.fr web site
 baseurl: https://akemail.fr
-pygments: True
+highlighter: True
 encoding: utf-8
 markdown: kramdown
